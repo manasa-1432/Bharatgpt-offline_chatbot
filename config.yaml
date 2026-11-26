@@ -1,0 +1,18 @@
+model_path:
+  small: "./models/llava/ggml-model-q4_k.gguf"
+  large: "./models/llava/ggml-model-q4_k.gguf"
+
+model_type: "llama"
+image_model_path: "./models/llava/ggml-model-q4_k.gguf"
+image_projector_path: "./models/llava/mmproj-model-f16.gguf"
+
+embeddings_path: "./models/bge-large-en-v1.5"
+whisper_model_path: "./models/whisper-small"
+
+model_config: 
+  'max_new_tokens': 512
+  'temperature' : 0.7
+  'context_length': 4096
+  'gpu_layers' : 30
+
+chat_history_path: "./chat_sessions/"

@@ -1,0 +1,16 @@
+streamlit==1.45.1
+streamlit-mic-recorder==0.0.8
+langchain==0.3.25
+langchain-community==0.3.24
+langchain-chroma==0.2.4
+chromadb==1.0.12
+transformers==4.52.4
+torch==2.7.1
+librosa==0.11.0
+pypdfium2==4.30.1
+PyYAML==6.0.2
+ctransformers==0.2.27
+--extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+llama-cpp-python==0.2.90
+# Chroma 1.0.12 calls the legacy three-argument PostHog capture API.
+posthog==3.25.0
